@@ -1,0 +1,31 @@
+baseURL = "https://aa-2003.github.io/Alireza-Azizkhani/"  
+languageCode = "en-us"
+title = "Alireza Azizkhani"
+theme = "PaperMod"
+
+[params]
+  custom_css = ["css/custom.css"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 3
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

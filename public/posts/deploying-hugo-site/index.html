@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta name="robots" content="index, follow">
+<title>Deploying My Hugo Site: A Step-by-Step Guide | Alireza Azizkhani</title>
+<link rel="stylesheet" href="/css/custom.css">
+<meta name="keywords" content="hugo, website, deployment">
+<meta name="description" content="Hugo is a powerful static site generator that makes building websites incredibly fast and efficient. In this guide, I&rsquo;ll walk you through how to create a complete Hugo site from scratch, including installation, configuration, and content creation.
+
+🚀 Getting Started with Hugo
+Hugo makes it easy to build a lightning-fast website with minimal setup.
+1. Install Hugo
+First, you&rsquo;ll need to install Hugo on your system:
+# macOS (using Homebrew)
+brew install hugo
+
+# Windows (using Chocolatey)
+choco install hugo -confirm
+
+# Linux
+snap install hugo
+2. Create a New Site
+Generate your new Hugo site with one command:">
+<meta name="author" content="">
+<link rel="canonical" href="https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/">
+<link crossorigin="anonymous" href="/Alireza-Azizkhani/assets/css/stylesheet.6da9a63d25a9608bca2f7f907a030e887a7dd3c3f3918e4cc113129361414bda.css" integrity="sha256-bammPSWpYIvKL3&#43;QegMOiHp908PzkY5MwRMSk2FBS9o=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://aa-2003.github.io/Alireza-Azizkhani/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://aa-2003.github.io/Alireza-Azizkhani/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://aa-2003.github.io/Alireza-Azizkhani/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://aa-2003.github.io/Alireza-Azizkhani/apple-touch-icon.png">
+<link rel="mask-icon" href="https://aa-2003.github.io/Alireza-Azizkhani/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/">
+  <meta property="og:site_name" content="Alireza Azizkhani">
+  <meta property="og:title" content="Deploying My Hugo Site: A Step-by-Step Guide">
+  <meta property="og:description" content="Hugo is a powerful static site generator that makes building websites incredibly fast and efficient. In this guide, I’ll walk you through how to create a complete Hugo site from scratch, including installation, configuration, and content creation.
+🚀 Getting Started with Hugo Hugo makes it easy to build a lightning-fast website with minimal setup.
+1. Install Hugo First, you’ll need to install Hugo on your system:
+# macOS (using Homebrew) brew install hugo # Windows (using Chocolatey) choco install hugo -confirm # Linux snap install hugo 2. Create a New Site Generate your new Hugo site with one command:">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2025-03-13T15:45:00+00:00">
+    <meta property="article:modified_time" content="2025-03-13T15:45:00+00:00">
+    <meta property="article:tag" content="Hugo">
+    <meta property="article:tag" content="Website">
+    <meta property="article:tag" content="Deployment">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Deploying My Hugo Site: A Step-by-Step Guide">
+<meta name="twitter:description" content="Hugo is a powerful static site generator that makes building websites incredibly fast and efficient. In this guide, I&rsquo;ll walk you through how to create a complete Hugo site from scratch, including installation, configuration, and content creation.
+
+🚀 Getting Started with Hugo
+Hugo makes it easy to build a lightning-fast website with minimal setup.
+1. Install Hugo
+First, you&rsquo;ll need to install Hugo on your system:
+# macOS (using Homebrew)
+brew install hugo
+
+# Windows (using Chocolatey)
+choco install hugo -confirm
+
+# Linux
+snap install hugo
+2. Create a New Site
+Generate your new Hugo site with one command:">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "All Posts",
+      "item": "https://aa-2003.github.io/Alireza-Azizkhani/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Deploying My Hugo Site: A Step-by-Step Guide",
+      "item": "https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Deploying My Hugo Site: A Step-by-Step Guide",
+  "name": "Deploying My Hugo Site: A Step-by-Step Guide",
+  "description": "Hugo is a powerful static site generator that makes building websites incredibly fast and efficient. In this guide, I\u0026rsquo;ll walk you through how to create a complete Hugo site from scratch, including installation, configuration, and content creation.\n🚀 Getting Started with Hugo Hugo makes it easy to build a lightning-fast website with minimal setup.\n1. Install Hugo First, you\u0026rsquo;ll need to install Hugo on your system:\n# macOS (using Homebrew) brew install hugo # Windows (using Chocolatey) choco install hugo -confirm # Linux snap install hugo 2. Create a New Site Generate your new Hugo site with one command:\n",
+  "keywords": [
+    "hugo", "website", "deployment"
+  ],
+  "articleBody": "Hugo is a powerful static site generator that makes building websites incredibly fast and efficient. In this guide, I’ll walk you through how to create a complete Hugo site from scratch, including installation, configuration, and content creation.\n🚀 Getting Started with Hugo Hugo makes it easy to build a lightning-fast website with minimal setup.\n1. Install Hugo First, you’ll need to install Hugo on your system:\n# macOS (using Homebrew) brew install hugo # Windows (using Chocolatey) choco install hugo -confirm # Linux snap install hugo 2. Create a New Site Generate your new Hugo site with one command:\nhugo new site my-awesome-site cd my-awesome-site 3. Add a Theme Hugo sites need a theme. You can add one as a git submodule:\ngit init git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke Then enable it in your configuration:\necho \"theme = 'ananke'\" \u003e\u003e config.toml 📝 Creating Content Hugo makes content creation straightforward with its powerful templating system.\n1. Create Your First Post Generate a new content file:\nhugo new posts/my-first-post.md 2. Edit Your Content Open the new file in your favorite editor. You’ll see something like:\n--- title: \"My First Post\" date: 2025-03-16T10:30:00Z draft: true --- Write your post content here... 3. Preview Your Site Start Hugo’s development server to see your site:\nhugo server -D Then visit http://localhost:1313 in your browser.\n🔧 Configuring Your Site Hugo offers extensive configuration options to customize your site.\n1. Basic Configuration Edit your config.toml (or config.yaml) file:\nbaseURL = 'https://example.org/' languageCode = 'en-us' title = 'My New Hugo Site' theme = 'ananke' # Enable syntax highlighting [markup] [markup.highlight] style = \"monokai\" 2. Customize Your Theme Override theme templates by creating matching files in your site:\nmkdir -p layouts/partials cp themes/ananke/layouts/partials/site-header.html layouts/partials/ # Now edit layouts/partials/site-header.html 3. Add Custom CSS/JS Create assets directories for your custom styles:\nmkdir -p assets/css echo '.custom-class { color: blue; }' \u003e assets/css/custom.css 🏗️ Site Structure Understanding Hugo’s directory structure is key to building effective sites.\n1. Key Directories my-awesome-site/ ├── archetypes/ # Content templates ├── assets/ # Processed by Hugo Pipes ├── content/ # All content files ├── data/ # Configuration files ├── layouts/ # Templates ├── resources/ # Cache directory ├── static/ # Static files ├── themes/ # Site themes └── config.toml # Site configuration 2. Content Organization Structure your content in meaningful sections:\ncontent/ ├── posts/ # Blog posts ├── projects/ # Project portfolio └── about/ # About page └── _index.md # Section landing page 🔍 Advanced Features Hugo offers powerful features for creating complex sites.\n1. Shortcodes Create reusable content snippets:\nHugo Logo\r2. Taxonomies Organize content with categories and tags:\n# In config.toml [taxonomies] category = \"categories\" tag = \"tags\" series = \"series\" 3. Data Templates Use external data sources:\n# data/team.yaml members: - name: John Doe role: Developer Then access in templates:\n{{ range .Site.Data.team.members }} \u003ch3\u003e{{ .name }}\u003c/h3\u003e \u003cp\u003e{{ .role }}\u003c/p\u003e {{ end }} 🚀 Building and Deploying When you’re ready to share your site with the world:\n1. Build Your Site Generate your static files:\nhugo --minify 2. Deploy to Netlify Connect your Git repository to Netlify for automatic deployments with this netlify.toml:\n[build] publish = \"public\" command = \"hugo --gc --minify\" [build.environment] HUGO_VERSION = \"0.110.0\" 3. Other Hosting Options GitHub Pages Vercel Amazon S3 Any web server that can serve static files 🔮 Next Steps To take your Hugo site to the next level:\nImplement a CI/CD pipeline Add a headless CMS like Forestry or NetlifyCMS Optimize images and performance Add search functionality with Algolia or Fuse.js Create custom shortcodes for specialized content ",
+  "wordCount" : "590",
+  "inLanguage": "en",
+  "datePublished": "2025-03-13T15:45:00Z",
+  "dateModified": "2025-03-13T15:45:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alireza Azizkhani",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://aa-2003.github.io/Alireza-Azizkhani/favicon.ico"
+    }
+  }
+}
+</script>
+    
+    <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NLZB923G');
+    </script>
+    
+</head>
+
+<body class="" id="top">
+    
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLZB923G"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://aa-2003.github.io/Alireza-Azizkhani/" accesskey="h" title="Alireza Azizkhani (Alt + H)">Alireza Azizkhani</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://aa-2003.github.io/Alireza-Azizkhani/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aa-2003.github.io/Alireza-Azizkhani/about/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://aa-2003.github.io/Alireza-Azizkhani/posts/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Deploying My Hugo Site: A Step-by-Step Guide
+    </h1>
+    <div class="post-meta"><span title='2025-03-13 15:45:00 +0000 UTC'>March 13, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Hugo is a <strong>powerful static site generator</strong> that makes building websites incredibly fast and efficient. In this guide, I&rsquo;ll walk you through <strong>how to create a complete Hugo site</strong> from scratch, including installation, configuration, and content creation.</p>
+<hr>
+<h2 id="-getting-started-with-hugo">🚀 <strong>Getting Started with Hugo</strong><a hidden class="anchor" aria-hidden="true" href="#-getting-started-with-hugo">#</a></h2>
+<p>Hugo makes it easy to build a lightning-fast website with minimal setup.</p>
+<h3 id="1-install-hugo"><strong>1. Install Hugo</strong><a hidden class="anchor" aria-hidden="true" href="#1-install-hugo">#</a></h3>
+<p>First, you&rsquo;ll need to install Hugo on your system:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># macOS (using Homebrew)</span>
+</span></span><span style="display:flex;"><span>brew install hugo
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Windows (using Chocolatey)</span>
+</span></span><span style="display:flex;"><span>choco install hugo -confirm
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Linux</span>
+</span></span><span style="display:flex;"><span>snap install hugo
+</span></span></code></pre></div><h3 id="2-create-a-new-site"><strong>2. Create a New Site</strong><a hidden class="anchor" aria-hidden="true" href="#2-create-a-new-site">#</a></h3>
+<p>Generate your new Hugo site with one command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new site my-awesome-site
+</span></span><span style="display:flex;"><span>cd my-awesome-site
+</span></span></code></pre></div><h3 id="3-add-a-theme"><strong>3. Add a Theme</strong><a hidden class="anchor" aria-hidden="true" href="#3-add-a-theme">#</a></h3>
+<p>Hugo sites need a theme. You can add one as a git submodule:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke themes/ananke
+</span></span></code></pre></div><p>Then enable it in your configuration:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;theme = &#39;ananke&#39;&#34;</span> &gt;&gt; config.toml
+</span></span></code></pre></div><h2 id="-creating-content">📝 <strong>Creating Content</strong><a hidden class="anchor" aria-hidden="true" href="#-creating-content">#</a></h2>
+<p>Hugo makes content creation straightforward with its powerful templating system.</p>
+<h3 id="1-create-your-first-post"><strong>1. Create Your First Post</strong><a hidden class="anchor" aria-hidden="true" href="#1-create-your-first-post">#</a></h3>
+<p>Generate a new content file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo new posts/my-first-post.md
+</span></span></code></pre></div><h3 id="2-edit-your-content"><strong>2. Edit Your Content</strong><a hidden class="anchor" aria-hidden="true" href="#2-edit-your-content">#</a></h3>
+<p>Open the new file in your favorite editor. You&rsquo;ll see something like:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-md" data-lang="md"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>title: &#34;My First Post&#34;
+</span></span><span style="display:flex;"><span>date: 2025-03-16T10:30:00Z
+</span></span><span style="display:flex;"><span>draft: true
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Write your post content here...
+</span></span></code></pre></div><h3 id="3-preview-your-site"><strong>3. Preview Your Site</strong><a hidden class="anchor" aria-hidden="true" href="#3-preview-your-site">#</a></h3>
+<p>Start Hugo&rsquo;s development server to see your site:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo server -D
+</span></span></code></pre></div><p>Then visit http://localhost:1313 in your browser.</p>
+<h2 id="-configuring-your-site">🔧 <strong>Configuring Your Site</strong><a hidden class="anchor" aria-hidden="true" href="#-configuring-your-site">#</a></h2>
+<p>Hugo offers extensive configuration options to customize your site.</p>
+<h3 id="1-basic-configuration"><strong>1. Basic Configuration</strong><a hidden class="anchor" aria-hidden="true" href="#1-basic-configuration">#</a></h3>
+<p>Edit your <code>config.toml</code> (or <code>config.yaml</code>) file:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://example.org/&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#39;en-us&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#39;My New Hugo Site&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#39;ananke&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Enable syntax highlighting</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">markup</span>]
+</span></span><span style="display:flex;"><span>  [<span style="color:#a6e22e">markup</span>.<span style="color:#a6e22e">highlight</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">style</span> = <span style="color:#e6db74">&#34;monokai&#34;</span>
+</span></span></code></pre></div><h3 id="2-customize-your-theme"><strong>2. Customize Your Theme</strong><a hidden class="anchor" aria-hidden="true" href="#2-customize-your-theme">#</a></h3>
+<p>Override theme templates by creating matching files in your site:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir -p layouts/partials
+</span></span><span style="display:flex;"><span>cp themes/ananke/layouts/partials/site-header.html layouts/partials/
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Now edit layouts/partials/site-header.html</span>
+</span></span></code></pre></div><h3 id="3-add-custom-cssjs"><strong>3. Add Custom CSS/JS</strong><a hidden class="anchor" aria-hidden="true" href="#3-add-custom-cssjs">#</a></h3>
+<p>Create assets directories for your custom styles:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>mkdir -p assets/css
+</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;.custom-class { color: blue; }&#39;</span> &gt; assets/css/custom.css
+</span></span></code></pre></div><h2 id="-site-structure">🏗️ <strong>Site Structure</strong><a hidden class="anchor" aria-hidden="true" href="#-site-structure">#</a></h2>
+<p>Understanding Hugo&rsquo;s directory structure is key to building effective sites.</p>
+<h3 id="1-key-directories"><strong>1. Key Directories</strong><a hidden class="anchor" aria-hidden="true" href="#1-key-directories">#</a></h3>
+<pre tabindex="0"><code>my-awesome-site/
+├── archetypes/       # Content templates
+├── assets/           # Processed by Hugo Pipes
+├── content/          # All content files
+├── data/             # Configuration files
+├── layouts/          # Templates
+├── resources/        # Cache directory
+├── static/           # Static files
+├── themes/           # Site themes
+└── config.toml       # Site configuration
+</code></pre><h3 id="2-content-organization"><strong>2. Content Organization</strong><a hidden class="anchor" aria-hidden="true" href="#2-content-organization">#</a></h3>
+<p>Structure your content in meaningful sections:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>content/
+</span></span><span style="display:flex;"><span>├── posts/            <span style="color:#75715e"># Blog posts</span>
+</span></span><span style="display:flex;"><span>├── projects/         <span style="color:#75715e"># Project portfolio</span>
+</span></span><span style="display:flex;"><span>└── about/            <span style="color:#75715e"># About page</span>
+</span></span><span style="display:flex;"><span>    └── _index.md     <span style="color:#75715e"># Section landing page</span>
+</span></span></code></pre></div><h2 id="-advanced-features">🔍 <strong>Advanced Features</strong><a hidden class="anchor" aria-hidden="true" href="#-advanced-features">#</a></h2>
+<p>Hugo offers powerful features for creating complex sites.</p>
+<h3 id="1-shortcodes"><strong>1. Shortcodes</strong><a hidden class="anchor" aria-hidden="true" href="#1-shortcodes">#</a></h3>
+<p>Create reusable content snippets:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span><span style="color:#a6e22e"><figure>
+    <img loading="lazy" src="/images/logo.png"/> <figcaption>
+            Hugo Logo
+        </figcaption>
+</figure>
+</span>
+</span></span></code></pre></div><h3 id="2-taxonomies"><strong>2. Taxonomies</strong><a hidden class="anchor" aria-hidden="true" href="#2-taxonomies">#</a></h3>
+<p>Organize content with categories and tags:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#75715e"># In config.toml</span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">taxonomies</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">category</span> = <span style="color:#e6db74">&#34;categories&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">tag</span> = <span style="color:#e6db74">&#34;tags&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">series</span> = <span style="color:#e6db74">&#34;series&#34;</span>
+</span></span></code></pre></div><h3 id="3-data-templates"><strong>3. Data Templates</strong><a hidden class="anchor" aria-hidden="true" href="#3-data-templates">#</a></h3>
+<p>Use external data sources:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span><span style="color:#75715e"># data/team.yaml</span>
+</span></span><span style="display:flex;"><span>members:
+</span></span><span style="display:flex;"><span>  - name: John Doe
+</span></span><span style="display:flex;"><span>    role: Developer
+</span></span></code></pre></div><p>Then access in templates:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-go" data-lang="go"><span style="display:flex;"><span>{{ <span style="color:#66d9ef">range</span> .<span style="color:#a6e22e">Site</span>.<span style="color:#a6e22e">Data</span>.<span style="color:#a6e22e">team</span>.<span style="color:#a6e22e">members</span> }}
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">h3</span>&gt;{{ .<span style="color:#a6e22e">name</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">h3</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#a6e22e">p</span>&gt;{{ .<span style="color:#a6e22e">role</span> }}&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+</span></span><span style="display:flex;"><span>{{ <span style="color:#a6e22e">end</span> }}
+</span></span></code></pre></div><h2 id="-building-and-deploying">🚀 <strong>Building and Deploying</strong><a hidden class="anchor" aria-hidden="true" href="#-building-and-deploying">#</a></h2>
+<p>When you&rsquo;re ready to share your site with the world:</p>
+<h3 id="1-build-your-site"><strong>1. Build Your Site</strong><a hidden class="anchor" aria-hidden="true" href="#1-build-your-site">#</a></h3>
+<p>Generate your static files:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>hugo --minify
+</span></span></code></pre></div><h3 id="2-deploy-to-netlify"><strong>2. Deploy to Netlify</strong><a hidden class="anchor" aria-hidden="true" href="#2-deploy-to-netlify">#</a></h3>
+<p>Connect your Git repository to Netlify for automatic deployments with this <code>netlify.toml</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">build</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">publish</span> = <span style="color:#e6db74">&#34;public&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">command</span> = <span style="color:#e6db74">&#34;hugo --gc --minify&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">build</span>.<span style="color:#a6e22e">environment</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">HUGO_VERSION</span> = <span style="color:#e6db74">&#34;0.110.0&#34;</span>
+</span></span></code></pre></div><h3 id="3-other-hosting-options"><strong>3. Other Hosting Options</strong><a hidden class="anchor" aria-hidden="true" href="#3-other-hosting-options">#</a></h3>
+<ul>
+<li>GitHub Pages</li>
+<li>Vercel</li>
+<li>Amazon S3</li>
+<li>Any web server that can serve static files</li>
+</ul>
+<h2 id="-next-steps">🔮 <strong>Next Steps</strong><a hidden class="anchor" aria-hidden="true" href="#-next-steps">#</a></h2>
+<p>To take your Hugo site to the next level:</p>
+<ul>
+<li>Implement a CI/CD pipeline</li>
+<li>Add a headless CMS like Forestry or NetlifyCMS</li>
+<li>Optimize images and performance</li>
+<li>Add search functionality with Algolia or Fuse.js</li>
+<li>Create custom shortcodes for specialized content</li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://aa-2003.github.io/Alireza-Azizkhani/tags/hugo/">Hugo</a></li>
+      <li><a href="https://aa-2003.github.io/Alireza-Azizkhani/tags/website/">Website</a></li>
+      <li><a href="https://aa-2003.github.io/Alireza-Azizkhani/tags/deployment/">Deployment</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://aa-2003.github.io/Alireza-Azizkhani/">Alireza azizkhani</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+
+        <div class="footer-content">
+          <div class="footer-links">
+            <a href="mailto:alireza.azizkhani.2003@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://twitter.com/po_isMine"><i class="fab fa-twitter"></i></a>
+            <a href="https://t.me/AlirezAzizkhani"><i class="fab fa-telegram"></i></a>
+            <a href="https://linkedin.com/in/alireza-azizkhani"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/AA-2003"><i class="fab fa-github"></i></a>
+            <a href="http://www.coffeete.ir/azizkhani">
+                <img src="http://www.coffeete.ir/images/buttons/lemonchiffon.png" style="width:100%;" />
+            </a>
+        </div>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
