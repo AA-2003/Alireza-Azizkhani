@@ -2,43 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Welcome to My Site on Alireza Azizkhani</title>
-    <link>https://aa-2003.github.io/Alireza-Azizkhani/</link>
+    <link>http://localhost:1313/Alireza-Azizkhani/</link>
     <description>Recent content in Welcome to My Site on Alireza Azizkhani</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aa-2003.github.io/Alireza-Azizkhani/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About Me</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/about/</link>
-      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/about/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;👋 Hello There!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;My name is Alireza Azizkhani. I’m a CE student.
-&lt;img src=&#34;https://media.licdn.com/dms/image/v2/D4D03AQFmbpfyQ90dCw/profile-displayphoto-shrink_800_800/B4DZQnTiXFHMAg-/0/1735826221107?e=1747872000&amp;v=beta&amp;t=8jvuEcQpTUEftYqYZx8U0MJX0I8bAzk8KSc8q0ES9Qo&#34; alt=&#34;Profile Picture&#34;  style=&#34;  border-radius: 50%;
-width: 30%;
-object-fit: cover;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;🚀 I’m passionate about working on the cutting edge of technology, developing AI solutions that tackle real-world challenges. With hands-on experience in NLP and Computer Vision, I thrive on building models, preprocessing data, and turning complex problems into actionable insights. Whether it’s crafting a sentiment analysis system or designing a hand-gesture mouse, I love the thrill of solving puzzles with code and data.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Learning Rust: My Journey</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/posts/learning-rust/</link>
-      <pubDate>Fri, 14 Mar 2025 18:30:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/posts/learning-rust/</guid>
-      <description>&lt;p&gt;I have recently started learning &lt;strong&gt;Rust&lt;/strong&gt;, and it&amp;rsquo;s been an exciting journey.&lt;/p&gt;
-&lt;h3 id=&#34;why-rust&#34;&gt;Why Rust?&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Memory safety without a garbage collector&lt;/li&gt;
-&lt;li&gt;High performance&lt;/li&gt;
-&lt;li&gt;Great for system programming and web assembly&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I will be sharing tutorials, projects, and challenges I encounter while learning Rust. 🚀&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 17 Mar 2025 18:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Alireza-Azizkhani/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deploying My Hugo Site: A Step-by-Step Guide</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/</link>
-      <pubDate>Thu, 13 Mar 2025 15:45:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/posts/deploying-hugo-site/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/posts/deploying-hugo-site/</link>
+      <pubDate>Mon, 17 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/posts/deploying-hugo-site/</guid>
       <description>&lt;p&gt;Hugo is a &lt;strong&gt;powerful static site generator&lt;/strong&gt; that makes building websites incredibly fast and efficient. In this guide, I&amp;rsquo;ll walk you through &lt;strong&gt;how to create a complete Hugo site&lt;/strong&gt; from scratch, including installation, configuration, and content creation.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-getting-started-with-hugo&#34;&gt;🚀 &lt;strong&gt;Getting Started with Hugo&lt;/strong&gt;&lt;/h2&gt;
@@ -58,12 +32,24 @@ object-fit: cover;&#34;&gt;&lt;/p&gt;
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/posts/my-first-post/</link>
-      <pubDate>Wed, 12 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/posts/my-first-post/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/posts/my-first-post/</link>
+      <pubDate>Sun, 16 Mar 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/posts/my-first-post/</guid>
       <description>&lt;p&gt;Welcome to my first blog post! 🎉&lt;br&gt;
-I am Alireza Azizkhani, and I will be sharing my journey in &lt;strong&gt;programming, AI, and data science&lt;/strong&gt;.&lt;/p&gt;
+I will be sharing my journey in &lt;strong&gt;programming, AI, and data science&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Stay tuned for more posts!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/Alireza-Azizkhani/about/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/about/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;👋 Hello There!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My name is Alireza Azizkhani. I’m a CE student.
+&lt;img src=&#34;https://media.licdn.com/dms/image/v2/D4D03AQFmbpfyQ90dCw/profile-displayphoto-shrink_800_800/B4DZQnTiXFHMAg-/0/1735826221107?e=1747872000&amp;v=beta&amp;t=8jvuEcQpTUEftYqYZx8U0MJX0I8bAzk8KSc8q0ES9Qo&#34; alt=&#34;Profile Picture&#34;  style=&#34;  border-radius: 50%;
+width: 30%;
+object-fit: cover;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;🚀 I’m passionate about working on the cutting edge of technology, developing AI solutions that tackle real-world challenges. With hands-on experience in NLP and Computer Vision, I thrive on building models, preprocessing data, and turning complex problems into actionable insights. Whether it’s crafting a sentiment analysis system or designing a hand-gesture mouse, I love the thrill of solving puzzles with code and data.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

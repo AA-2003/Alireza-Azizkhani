@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on Alireza Azizkhani</title>
-    <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/personal/</link>
+    <link>http://localhost:1313/Alireza-Azizkhani/tags/personal/</link>
     <description>Recent content in Personal on Alireza Azizkhani</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Mar 2025 10:00:00 +0000</lastBuildDate>
-    <atom:link href="https://aa-2003.github.io/Alireza-Azizkhani/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Mar 2025 10:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Alireza-Azizkhani/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/posts/my-first-post/</link>
-      <pubDate>Wed, 12 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/posts/my-first-post/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/posts/my-first-post/</link>
+      <pubDate>Sun, 16 Mar 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/posts/my-first-post/</guid>
       <description>&lt;p&gt;Welcome to my first blog post! 🎉&lt;br&gt;
-I am Alireza Azizkhani, and I will be sharing my journey in &lt;strong&gt;programming, AI, and data science&lt;/strong&gt;.&lt;/p&gt;
+I will be sharing my journey in &lt;strong&gt;programming, AI, and data science&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Stay tuned for more posts!&lt;/p&gt;</description>
     </item>
   </channel>

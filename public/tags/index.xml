@@ -2,66 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Alireza Azizkhani</title>
-    <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/</link>
+    <link>http://localhost:1313/Alireza-Azizkhani/tags/</link>
     <description>Recent content in Tags on Alireza Azizkhani</description>
     <generator>Hugo -- 0.145.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Mar 2025 18:30:00 +0000</lastBuildDate>
-    <atom:link href="https://aa-2003.github.io/Alireza-Azizkhani/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Learning</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/learning/</link>
-      <pubDate>Fri, 14 Mar 2025 18:30:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/learning/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/programming/</link>
-      <pubDate>Fri, 14 Mar 2025 18:30:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rust</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/rust/</link>
-      <pubDate>Fri, 14 Mar 2025 18:30:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/rust/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Mon, 17 Mar 2025 18:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/Alireza-Azizkhani/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deployment</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/deployment/</link>
-      <pubDate>Thu, 13 Mar 2025 15:45:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/deployment/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/tags/deployment/</link>
+      <pubDate>Mon, 17 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/tags/deployment/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/hugo/</link>
-      <pubDate>Thu, 13 Mar 2025 15:45:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/hugo/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/tags/hugo/</link>
+      <pubDate>Mon, 17 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Website</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/website/</link>
-      <pubDate>Thu, 13 Mar 2025 15:45:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/website/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/tags/website/</link>
+      <pubDate>Mon, 17 Mar 2025 18:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/tags/website/</guid>
       <description></description>
     </item>
     <item>
       <title>Introduction</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/introduction/</link>
-      <pubDate>Wed, 12 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/introduction/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/tags/introduction/</link>
+      <pubDate>Sun, 16 Mar 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/tags/introduction/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
-      <link>https://aa-2003.github.io/Alireza-Azizkhani/tags/personal/</link>
-      <pubDate>Wed, 12 Mar 2025 10:00:00 +0000</pubDate>
-      <guid>https://aa-2003.github.io/Alireza-Azizkhani/tags/personal/</guid>
+      <link>http://localhost:1313/Alireza-Azizkhani/tags/personal/</link>
+      <pubDate>Sun, 16 Mar 2025 10:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/Alireza-Azizkhani/tags/personal/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,6 +1,6 @@
 ---
 title: "Deploying My Hugo Site: A Step-by-Step Guide"
-date: 2025-03-13T15:45:00Z
+date: 2025-03-17T18:00:00Z
 tags: ["hugo", "website", "deployment"]
 ---
 Hugo is a **powerful static site generator** that makes building websites incredibly fast and efficient. In this guide, I'll walk you through **how to create a complete Hugo site** from scratch, including installation, configuration, and content creation.
@@ -128,42 +128,6 @@ content/
     └── _index.md     # Section landing page
 ```
 
-## 🔍 **Advanced Features**
-Hugo offers powerful features for creating complex sites.
-
-### **1. Shortcodes**
-Create reusable content snippets:  
-```go
-{{< figure src="/images/logo.png" title="Hugo Logo" >}}
-```
-
-### **2. Taxonomies**
-Organize content with categories and tags:  
-```toml
-# In config.toml
-[taxonomies]
-  category = "categories"
-  tag = "tags"
-  series = "series"
-```
-
-### **3. Data Templates**
-Use external data sources:  
-```sh
-# data/team.yaml
-members:
-  - name: John Doe
-    role: Developer
-```
-
-Then access in templates:  
-```go
-{{ range .Site.Data.team.members }}
-  <h3>{{ .name }}</h3>
-  <p>{{ .role }}</p>
-{{ end }}
-```
-
 ## 🚀 **Building and Deploying**
 When you're ready to share your site with the world:
 
@@ -189,12 +153,3 @@ Connect your Git repository to Netlify for automatic deployments with this `netl
 - Vercel
 - Amazon S3
 - Any web server that can serve static files
-
-## 🔮 **Next Steps**
-To take your Hugo site to the next level:
-
-- Implement a CI/CD pipeline
-- Add a headless CMS like Forestry or NetlifyCMS
-- Optimize images and performance
-- Add search functionality with Algolia or Fuse.js
-- Create custom shortcodes for specialized content
